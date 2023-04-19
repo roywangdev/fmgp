@@ -2,9 +2,9 @@
 
 克隆项目到本地：
 
-git clone https://github.com/roywangdev/dmgp
+git clone https://github.com/roywangdev/fmgp
 
-cd ./dmgp
+cd ./fmgp
 
 此时您需要修改文件内的几个关键的参数：
 
@@ -20,6 +20,6 @@ GITHUB_TOKEN= #GitHub Token
 
 启动：
 
-nohup ./push.sh > output.log 2>&1 &
+nohup ./gitpu.sh > output.log 2>&1 &
 
 此时即可正常工作，会在同目录生成一个 output.log 文件，里面是运行的日志。
