@@ -1,10 +1,12 @@
 如何使用：
 
+克隆项目到本地：
+
 git clone https://github.com/roywangdev/dmgp
 
 cd ./dmgp
 
-此时您需要修改几个关键的参数：
+此时您需要修改文件内的几个关键的参数：
 
 WATCH_DIR=  #需要监控的目录
 
